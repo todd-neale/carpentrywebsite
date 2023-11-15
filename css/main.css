@@ -307,15 +307,15 @@ p,a {
 }
 
 .footer {
-  background: #3A405A !important;
+  background: slategrey !important;
 }
 
 body {
-  background-color: #f6f3ec !important;
+  background-color: white !important;
 }
 
 .footer a, h3 {
-  color: rgb(169, 135, 67) !important;
+  color: whitesmoke !important;
   text-decoration: none !important;
 }
 
@@ -328,7 +328,7 @@ body {
 
 .carousel-item img {
   height: 80vh !important;
-  object-fit: cover !important;
+  object-fit: contain !important;
 
   @media (max-width: 768px) {
     height: 50vh !important;
@@ -359,7 +359,7 @@ body {
 }
 
 .navbar {
-  background: #F7ECE1 !important;
+  background: whitesmoke !important;
   border-bottom: black solid 1px !important;
 }
 

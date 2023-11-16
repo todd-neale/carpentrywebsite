@@ -321,6 +321,26 @@ body {
   cursor: url('../img/chisel.png'), auto;
 }
 
+body:active {
+  cursor: url('../img/chisel_click.png'), auto;
+}
+
+.carousel-control-prev {
+  cursor: url('../img/chisel_link.png'), auto !important
+}
+
+.carousel-control-next {
+  cursor: url('../img/chisel_link.png'), auto !important;
+}
+
+a:hover {
+  cursor: url('../img/chisel_link.png'), auto !important;
+}
+
+a:active {
+  cursor: url('../img/chisel_click.png'), auto !important;
+}
+
 .footer a, h3 {
   color: whitesmoke !important;
   text-decoration: none !important;
@@ -376,16 +396,4 @@ body {
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
-}
-
-.carousel-control-prev {
-  cursor: url('../img/chisel_link.png'), auto !important
-}
-
-.carousel-control-next {
-  cursor: url('../img/chisel_link.png'), auto !important;
-}
-
-a:hover {
-  cursor: url('../img/chisel_link.png'), auto !important;
 }

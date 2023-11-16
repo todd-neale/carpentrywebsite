@@ -318,7 +318,7 @@ p,a {
 
 body {
   background-color: white !important;
-  cursor: url('img/chisel.png'), auto;
+  cursor: url('../img/chisel.png'), auto;
 }
 
 .footer a, h3 {
@@ -379,9 +379,13 @@ body {
 }
 
 .carousel-control-prev {
-  cursor: w-resize !important;
+  cursor: url('../img/chisel_link.png'), auto !important
 }
 
 .carousel-control-next {
-  cursor: e-resize !important;
+  cursor: url('../img/chisel_link.png'), auto !important;
+}
+
+a:hover {
+  cursor: url('../img/chisel_link.png'), auto !important;
 }
